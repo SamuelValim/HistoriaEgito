@@ -14,7 +14,7 @@ body, url{
     font-size: 15px;
 }
 #menu a:hover{
-    background: rgba(9, 207, 151, 0.718);
+    background: rgba(233, 190, 0, 0.718);
     font-size: 15px;
 }
 #logo {
@@ -24,7 +24,7 @@ body, url{
     height: 60px;
 }
 #logo img:hover{
-    box-shadow: 2px 2px 4px #00ffbb;
+    box-shadow: 2px 2px 4px #f58402de;
     transition: 0.3s;
 }
 #header {
@@ -34,7 +34,8 @@ body, url{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #03e89c;
+    background: #f0b906;
+    box-shadow: 3px 3px 6px #ff4800 ;
 }
 #menu{
     display: flex;
@@ -45,3 +46,66 @@ body, url{
     display: none;
 }
 /* Fim CSS estilo header */
+
+/* Inicio estilo carousel */
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+    box-shadow: 3px 3px 6px #ff4800 ;  /* Sombra Carousel */
+}
+/* Fim estilo carousel */
+
+/* Incio Estilo Banner Home */
+/* Para aplicar estilo  na CLASS> ultilize o ponto [.] antes do objeto */
+/* Para aplicar estilos ID > ultilize a hashtag [#] antes do objeto  */
+.section-banner-home {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #ff7300c4;
+    box-shadow: 3px 3px 6px #ff4800 ; /* sombra Banner */
+}
+
+.section-banner-home img{
+    max-height: 400px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.section-banner-home .texto-banner{
+    margin: 30px;
+    font-size: 22px;
+}
+
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #100060;
+    padding: 4px 14px;
+    font-size: 15px;
+    transition: 0.3s; /* Deixando o efeito suave */
+    box-shadow: 3px 3px 6px #ff4800 ; 
+}
+/* Color; greenyello; cor to texto */
+/* text-shadow: 2px 2px 4px #ffffff7a; sombra do texto */
+.section-banner-home .texto-banner a:hover {
+    color: greenyellow;
+    text-shadow: 2px 2px 4px #ffffff7a;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Fim Estilo Banner Home */
