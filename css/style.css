@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Libre+Franklin:wght@100&family=Noto+Sans+Egyptian+Hieroglyphs&family=Oregano&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Libre+Franklin:wght@100&family=Noto+Sans+Egyptian+Hieroglyphs&family=Oregano&display=swap');
 /* Arquivo da folha estilo de todos site */
 /* Inicio CSS estilo header */
 body, ul{
@@ -440,3 +440,59 @@ body, ul{
     margin-top: 30px;
 }
 /* Fim estilo Video */
+/* Inicio Estilo Contato */
+.contact {
+    padding: 70px 0px;
+    background: #0ab4cad2;
+
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #e9b200;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact input, 
+.contact textarea {
+    background-color: #fafafa;
+}
+.contact textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 70%;
+}
+/* Fim Estilo Contato */
+
+/* Inicio Market Place */
+.market-place {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 20px 20px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.market-place img {
+    height: 65%;
+    width: 65%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+/* Fim Market Place */
